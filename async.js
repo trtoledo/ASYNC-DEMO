@@ -7,7 +7,9 @@ function firstfn()  {
 }
 
 function secondFn () {
-    console.log("SECOND");
+    console.log("Second fn to start");
+    fourthFn();
+    console.log("second fn finish")
 }
 
 function thirdFn () {
@@ -15,10 +17,14 @@ function thirdFn () {
 }
 
 function fourthFn () {
-    console.log("FORTH");
+    console.log("Fourhtbfn start");
+    fifthFn();
+    console.log("Fourth fn finish");
 }
 
 function fifthFn () {
     console.log("FIFTH");
 }
 
+firstfn();
+thirdFn();
